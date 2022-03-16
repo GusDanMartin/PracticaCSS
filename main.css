@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+    width: 100%;
+    height: 135px;
+    background-color: #FFFFFF;
+    opacity: 90%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#logo{
+    font-weight: 800;
+    font-size: 25px;
+    color: blue;
+    width: 28%;
+    margin-left: 9%;
+}
+.navbar-link{
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0px 0px 0px 52px;
+    color: gray;
+}
+#navbar-button, #Box-static button,.button-chats{
+    background-color: blue;
+    color: white;
+    border: 0px none;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 50px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+}
+#Welcome{
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;   
+}
+#Welcome #inside{
+    width: 70%;
+}
+#Welcome #inside h1{
+    font-size: 65px;
+    color: rgb(22, 22, 126);
+}
+#Welcome #inside p{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 25px 0px 0px;
+    margin-bottom: 80px;
+}
+#Welcome #inside a{
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 55px 0px 0px;    
+}
+#Welcome #inside i{
+    margin: 0px 20px 0px 0px;
+    color: gold;
+    background-color: rgb(252, 247, 220);
+    border-radius: 5px;    
+}
+#Welcome #inside #Date{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(22, 22, 126);
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -450px;
+    padding: 0px 55px 0px 0px;   
+}
+#Welcome #inside #Date i, #Box-static i{
+    color: rgb(22, 22, 126);
+    background-color: rgb(154, 180, 228);
+    border-radius: 5px;
+}
+#First-Image{
+    width: 50%;
+    height: 1000px;
+    display: inline-flex;
+    background:url(./images/first_image.jpg);
+    background-repeat: no-repeat;
+}
+#First-Image img, #Second-Image img, #Third-Image img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#Box-static{
+    font-size: 20px;    
+    width: 70%;
+    height: 100px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 115px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Box-static p{
+    margin-left: 25px;
+}
+#Box-static .box-items{
+    display: flexbox;
+    font-weight: 700;
+    color: gray;
+}
+#Box-static button{
+    margin-left: 0px;
+}
+#vaccines-brand{
+    width: 99%;
+    height: 200px;
+    background-color: white;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+#vaccines-brand img{
+    margin-left: 5%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(1);
+    opacity: 15%;
+}
+#cotainer-recommendations{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 150px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#vaccine{
+    display: block;
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+}
+#vaccine #tittle{
+    width: 45%;
+    padding-left: 100px;
+}
+#vaccine h1{
+    font-size: 40px;
+    color: rgb(22, 22, 126);
+}
+#vaccine p{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 25px 0px 0px;
+}
+.windows-float{
+    width: 16%;
+    height: 45%;
+    margin: 0px 10px 0px;
+    padding: 45px 5px 0px 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(233, 227, 227);
+    color: rgb(35, 45, 187);
+    font-weight: 600;
+}
+.windows-float p{
+    font-size: 14px;
+    color: dimgray;
+}
+.windows-float i{
+    background-color: rgb(181, 186, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(35, 45, 187);
+}
+#Second-Image{
+    width: 40%;
+    height: 700px;
+    background-color: ghostwhite;
+    float: left;
+}
+#Preparations{
+    width: 50%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    padding-left: 90px;
+    margin-bottom: 100px;
+}
+#Preparations div{
+    margin: 20px 30px 10px 20px;
+    width: 420px;
+    height: 100px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 5px;
+    display: flexbox;
+    align-items: center;
+    padding-top: 10px;
+}
+#Preparations h1, #Emergency h1{
+    font-size: 40px;
+    color: rgb(22, 22, 126);
+}
+#Preparations p, #Emergency p{
+    font-size: 20px;
+    font-weight: 500;       
+    color: gray;
+}
+#icon-right{
+    background-color: antiquewhite;
+    align-items: flex-end;
+}
+#Preparations i{
+    border-radius: 5px;
+    background-color: rgb(181, 186, 253);
+    color: rgb(35, 45, 187);
+    font-size: 24px;
+}
+#Preparations a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(35, 45, 187);
+    display: inline-flex;
+    align-self: auto;
+}
+#Preparations #select{
+    height: 250px;
+}
+#Preparations .material-icons{
+    margin-left: 30px;
+}
+#Preparations #text-box{
+    font-size: 14px;    
+    font-weight: 500;
+    margin-left: 50px;
+}
+#Emergency{
+    width: 42%;
+    height: 700px;
+    background-color: white;
+    display: flexbox;
+    flex-direction: column; 
+    padding-left: 90px;
+    margin-bottom: 200px;
+    justify-content: space-around;
+    float: left;
+    flex-wrap: wrap;
+}
+#Emergency div{
+    display: inline-flex;
+    width: 210px;
+    height: 230px;
+}
+#Emergency i{
+    color: rgb(35, 45, 187);
+    background-color: rgb(181, 186, 253);
+    border-radius: 4px;
+    font-size: 35px;
+    margin-left: 32px;
+}
+#Emergency h3{
+    margin-left: 15px;
+}
+#Emergency h5{
+    margin-left: 55px;
+}
+.windows-chat{
+    background-color: white;
+    flex-wrap: wrap;
+    border: 3px solid gainsboro ;
+    border-radius: 10px;
+    align-items: center;
+    margin: 40px;
+}
+#Emergency button{
+    display: flexbox;
+}
+#Emergency #select{
+    margin-left: 32px;
+    background-color: rgb(35, 45, 187);
+    color: rgb(181, 186, 253);
+    background-color: blue;
+    color: white;
+    border: 0px none;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+}
+.button-chats{
+    margin-left: 32px;
+    background-color: rgb(181, 186, 253);
+    color: rgb(35, 45, 187);
+}
+#Third-Image{
+    width: 40%;
+    height: 800px;
+    background-color: ghostwhite;
+    float: right;
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ended{
+    margin-left: 9%;
+    margin-right: 26%;
+    width: 15%;
+    height: 70%;
+    float: left;
+}
+.things{
+    width: 16.6%;
+    height: 70%;
+    float: right;
+}
+#allrights{
+    margin-left: 9%;
+    width: 31%;
+    height: 20%;
+    margin-right: 30%;
+    float: left;
+}
+.terms{
+    width: 15%;
+    height: 20%;
+    float: right;
+}
+footer h2{
+    color: rgb(35, 45, 187);
+    font-weight: 800;
+}
+footer p{
+    font-weight: 600;
+    color: gray;
+}
